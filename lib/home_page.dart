@@ -29,13 +29,7 @@ class HomePageState extends State<HomePage> {
             backgroundColor: Colors.white12,
             appBar: AppBar(
               backgroundColor: Colors.black38,
-              title: const Text(
-                'Chuck Norris App',
-                style: TextStyle(
-                    fontFamily: 'KTF',
-                    fontSize: 35,
-                    fontStyle: FontStyle.italic),
-              ),
+              title: AlertInformationWidget(),
               centerTitle: true,
             ),
             body: Column(children: <Widget>[
@@ -92,5 +86,36 @@ class HomePageState extends State<HomePage> {
     var response =
         await http.get(chuckURL, headers: {'Accept': 'application/json'});
     return Joke.fromJson(jsonDecode(response.body));
+  }
+}
+
+class AlertInformationWidget extends StatelessWidget {
+  const AlertInformationWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+        onPressed: () => showDialog<String>(
+              context: context,
+              builder: (BuildContext context) => AlertDialog(
+                content: const Text(
+                    'Pechersky Ilya, i.pechersky@innopolis.university'),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.pop(context, 'Ok'),
+                    child: const Text('I invite you to Yandex, bro!',
+                        style: TextStyle(color: Colors.blueGrey)),
+                  )
+                ],
+              ),
+            ),
+        child: Text(
+          'Chuck Norris App',
+          style: TextStyle(
+              fontFamily: 'KTF',
+              fontSize: 35,
+              fontStyle: FontStyle.italic,
+              color: Colors.blueGrey),
+        ));
   }
 }
