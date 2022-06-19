@@ -16,7 +16,7 @@ If you want to know how to use this app tab "help me" button: \
 Functionality is very simple: you can see only one joke at once and you have to actions to change a joke:
 - to swipe.
 - to tab beautiful Chuck's face.
-- to make long tab (joke will be added to the favorites) \
+- to make long tab (joke will be added to the favorites) 
 
 [//]: # (Hello) \
 <img src="screenshots/mainpage.jpg" width="200" />
