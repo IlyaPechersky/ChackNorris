@@ -10,7 +10,7 @@ This project is a tinder-like application with opportunity to have fun with joke
 On menu page you will see two buttons:
 ![menu page](screenshots/menu.jpg)
 If you want to know how to use this app tab "help me" button:
-![main page](screenshots/rule.jpg)
+![rules](screenshots/rule.jpg)
 
 Functionality is very simple: you can see only one joke at once and you have to actions to change a joke:
 - to swipe.
@@ -21,7 +21,7 @@ Functionality is very simple: you can see only one joke at once and you have to 
 ![main page](screenshots/mainpage.jpg)
 
 Tab like button to see your favorites:
-![main page](screenshots/favorites.jpg)
+![favorites](screenshots/favorites.jpg)
 
 If your connection is lost app will hangle it and show you:
-![main page](screenshots/lostconnection.jpg)
+![connection](screenshots/lostconnection.jpg)
