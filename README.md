@@ -8,7 +8,8 @@ You can download __.apk__ [here](https://drive.google.com/drive/folders/1BzTfZ4m
 ## Breath description
 This project is a tinder-like application with opportunity to have fun with jokes about famous actor Chuck Norris.
 On menu page you will see two buttons:
-![menu page](screenshots/menu.jpg)
+<img src="screenshots/menu.jpg" width="200" />
+
 If you want to know how to use this app tab "help me" button:
 ![rules](screenshots/rule.jpg)
 
